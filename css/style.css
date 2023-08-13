@@ -1,13 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center;
+  font-size: 11px; text-align: center;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%); 
 }
