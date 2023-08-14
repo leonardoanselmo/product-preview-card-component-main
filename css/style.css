@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fraunces', serif;
 }
 
 :root {
@@ -38,8 +37,33 @@ img {
   background-color: var(--white);
 }
 
+.c-product-card__img-half {
+  background-size: contain;
+}
+
 .c-product-card__img {
   border-radius: 12px 0px 0 12px;
+}
+
+.c-product-card__text-half {
+  padding: 32px 32px 0 32px;
+}
+
+.c-product-card__ribbon {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: var(--dark-grayish-blue);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.c-product-card__title {
+  color: var(--very-dark-blue);
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  max-width: 10ch;
 }
 
 footer {
