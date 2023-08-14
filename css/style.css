@@ -8,6 +8,18 @@
 
 img {
   display: block;
+  width: 100%;
+}
+
+body {
+  position: relative;
+}
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .attribution { 
