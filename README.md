@@ -87,11 +87,11 @@ Ainda acho complicado conseguir identificar as cores para o projeto, pois não �
 
 No HTML escolhi a TAG semântica ``<main></main>`` e ``<footer></footer> `` por saber que é um card isolado e precisava de uma marcação principal para o conteúdo e outra para o footer(rodapé).
 
-Todas as tags incluindo ``<img>``, ``<H2>`` e ``<p>`` foram acrescentadas classes CSS baseado na metodologia BEM.
+Todas as tags incluindo ``<img>``, ``<H2>`` e ``<span>`` foram acrescentadas classes CSS baseado na metodologia BEM.
 
 ```html
 <hgroup class="c-product-card__title-group">
-  <p class="c-product-card__ribbon">Perfume</p>
+  <span class="c-product-card__ribbon">Perfume</span>
   <h2 class="c-product-card__title">Gabrielle Essence Eau De Parfum</h2>
 </hgroup>   
 ```
