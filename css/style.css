@@ -37,13 +37,10 @@ img {
   align-items: center;
   border-radius: 12px;
   background-color: var(--white);
-  /* background-color: aqua; */
 }
 
 .c-product-card__img-half {
-  /* max-width: 100%;    */
-  border: 1px solid red;
-  padding: 15px;
+  max-width: 100%;    
 }
 
 .c-product-card__img {
@@ -55,7 +52,6 @@ img {
   display: flex;
   flex-direction: column;
   padding: 0 32px;
-  /* border: 1px solid red; */
 }
 
 .c-product-card__ribbon {
@@ -151,14 +147,13 @@ footer {
 }
 
 @media (max-width: 375px) {
-  .c-product-card {
-    padding-top: 10px;
+  .c-product-card {    
     max-width: 340px; 
     display: flex;
     flex-direction: column;
   }
+  
   .c-product-card__img {
-    margin-top: 10px;
-    border-radius: 12px 12px 0 0px;
+    border-radius: 12px 12px 0px 0px;
   }
 }
