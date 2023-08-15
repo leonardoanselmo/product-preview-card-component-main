@@ -148,13 +148,19 @@ footer {
 
 @media (max-width: 375px) {
   .c-product-card {    
-    max-width: 340px; 
-    height: 230px;   
+    max-width: 340px;        
     display: flex;
     flex-direction: column;
   }  
   .c-product-card__img {
     border-radius: 12px 12px 0px 0px;
+    height: 230px;
+  }
+  .c-product-card__title {
+    margin-bottom: 1rem;
+  }
+  .c-product-card__desc {
+    margin-bottom: 1rem;
   }
   .c-product-card__prices {
     margin-bottom: 1rem;    
