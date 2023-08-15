@@ -55,6 +55,7 @@ img {
 }
 
 .c-product-card__ribbon {
+  display: block;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
