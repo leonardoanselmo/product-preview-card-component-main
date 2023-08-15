@@ -41,7 +41,9 @@ img {
 }
 
 .c-product-card__img-half {
-  max-width: 100%;   
+  /* max-width: 100%;    */
+  border: 1px solid red;
+  padding: 15px;
 }
 
 .c-product-card__img {
@@ -146,4 +148,17 @@ footer {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+  .c-product-card {
+    padding-top: 10px;
+    max-width: 340px; 
+    display: flex;
+    flex-direction: column;
+  }
+  .c-product-card__img {
+    margin-top: 10px;
+    border-radius: 12px 12px 0 0px;
+  }
 }
