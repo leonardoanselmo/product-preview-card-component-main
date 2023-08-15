@@ -149,6 +149,8 @@ footer {
 @media (max-width: 375px) {
   .c-product-card {    
     max-width: 340px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
   }
